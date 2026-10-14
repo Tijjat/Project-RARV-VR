@@ -10,7 +10,7 @@ This repository contains the **VR Level Editor**. Players build obstacle courses
 
 ## Technology
 
-- Unity **2022.3.8** (version used by the provided starter project)
+- Unity **6000.6.5f1** (version used by the provided starter project)
 - C#
 - Unity XR Interaction Toolkit
 - Compatible VR headset and controllers (depending on available hardware)
@@ -50,7 +50,7 @@ This repository contains the **VR Level Editor**. Players build obstacle courses
 
 ## Getting Started
 
-1. Install **Unity Hub** and **Unity 2022.3.8**.
+1. Install **Unity Hub** and **Unity 6000.6.5f1**.
 2. Clone this repository.
 3. Open the project folder in Unity Hub.
 4. Import or configure any required XR packages and device settings if they are not already included.
@@ -61,8 +61,7 @@ This repository contains the **VR Level Editor**. Players build obstacle courses
 
 ## Level Export and Integration
 
-The editor is designed to export a level as a `LevelName.json` file. The JSON representation is shared with the [Factory Frenzy PC Multiplayer](../) application conceptually; replace this placeholder with the actual PC repository URL.
-
+The editor is designed to export a level as a `LevelName.json` file. The JSON representation is shared with the [Factory Frenzy PC Multiplayer](https://github.com/Tijjat/Project-RARV) application conceptually; 
 The shared data model should represent object types, transforms and any object-specific configuration (such as moving-platform parameters). The exact JSON schema is defined jointly by both application teams.
 
 ## Development Workflow
