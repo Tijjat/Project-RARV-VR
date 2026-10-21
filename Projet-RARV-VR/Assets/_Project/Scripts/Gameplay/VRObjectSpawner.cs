@@ -79,8 +79,24 @@ public class VRObjectSpawner : MonoBehaviour
 
         placeable.Initialize(entry.prefabId);
 
+        // Ensure every spawned object respects the build area.
+        if (spawnedObject.GetComponent<VRBuildBoundsObject>() == null)
+        {
+            spawnedObject.AddComponent<VRBuildBoundsObject>();
+        }
 
-        spawnedObjects.Add(spawnedObject, entry.prefabId);
+        VRBuildBounds buildBounds = FindAnyObjectByType<VRBuildBounds>();
+
+        if (buildBounds != null)
+        {
+            buildBounds.ClampObject(spawnedObject);
+        }
+        else
+        {
+            Debug.LogWarning("VRBuildBounds was not found in the scene");
+        }
+
+            spawnedObjects.Add(spawnedObject, entry.prefabId);
 
 
         Debug.Log(
