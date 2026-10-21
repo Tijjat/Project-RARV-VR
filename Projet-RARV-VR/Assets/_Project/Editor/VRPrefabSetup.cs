@@ -79,9 +79,14 @@ public static class VRPrefabSetup
 
 
                 grab.trackPosition = true;
-                grab.trackRotation = true;
+                grab.trackRotation = false;
                 grab.throwOnDetach = false;
 
+                // Add 90° rotation support
+                if (root.GetComponent<VRObjectRotation>() == null)
+                {
+                    root.AddComponent<VRObjectRotation>();
+                }
 
                 // 4. Use the root Box Collider for VR selection.
                 grab.colliders.Clear();

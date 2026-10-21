@@ -624,6 +624,7 @@ GameObject:
   - component: {fileID: 3865644237755362992}
   - component: {fileID: 8137763269924383647}
   - component: {fileID: 1412967066751858402}
+  - component: {fileID: 8852473843654412815}
   m_Layer: 0
   m_Name: VR_trap_bumper
   m_TagString: Untagged
@@ -791,7 +792,7 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
@@ -829,6 +830,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &8852473843654412815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266448210055116676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f15b1a7d0ea634499402572f37a7d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectRotation
+  rotationStep: 90
+  joystickThreshold: 0.7
 --- !u!1 &4017197461964101943
 GameObject:
   m_ObjectHideFlags: 0

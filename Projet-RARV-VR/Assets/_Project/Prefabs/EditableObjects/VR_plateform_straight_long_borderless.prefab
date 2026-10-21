@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 3586508317602722818}
   - component: {fileID: 5767255055117565777}
   - component: {fileID: 482885151007782924}
+  - component: {fileID: 7535365282301535555}
   m_Layer: 0
   m_Name: VR_plateform_straight_long_borderless
   m_TagString: Untagged
@@ -385,7 +386,7 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 8
   m_TightenPosition: 0.1
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 8
   m_TightenRotation: 0.1
@@ -423,3 +424,17 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &7535365282301535555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8369367453583552850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f15b1a7d0ea634499402572f37a7d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectRotation
+  rotationStep: 90
+  joystickThreshold: 0.7
