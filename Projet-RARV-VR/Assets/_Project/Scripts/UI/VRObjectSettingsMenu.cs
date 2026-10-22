@@ -69,7 +69,7 @@ public class VRObjectSettingsMenu : MonoBehaviour
 
         switch (selectedObject.PrefabId)
         {
-            case "platform_moving":
+            case "trap_moving":
                 AddParameter("Distance", p.distance,
                     v => p.distance = v);
                 AddParameter("Speed", p.speed,

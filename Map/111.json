@@ -1,0 +1,64 @@
+{
+    "formatVersion": 1,
+    "levelId": "576bb1c9a93e4b769a900e382884ebf4",
+    "levelName": "111",
+    "isValid": false,
+    "grid": {
+        "width": 250,
+        "length": 250,
+        "cellSize": 2.0,
+        "origin": {
+            "x": -250.0,
+            "y": 0.0,
+            "z": -250.0
+        }
+    },
+    "objects": [
+        {
+            "id": "obj_6c48610c34184e95981612fdf4a41f30",
+            "prefabId": "trap_moving",
+            "position": {
+                "x": -4.437331199645996,
+                "y": 1.0,
+                "z": 10.228302001953125
+            },
+            "rotationY": 0,
+            "parameters": {
+                "distance": 5.0,
+                "speed": 2.0,
+                "pauseAtEnds": 0.5,
+                "bumperForce": 10.0,
+                "cooldown": 0.5,
+                "trampolineForce": 12.0,
+                "windForce": 30.0,
+                "sweepAngle": 45.0,
+                "sweepSpeed": 45.0,
+                "activeDuration": 5.0,
+                "cooldownDuration": 1.0
+            }
+        },
+        {
+            "id": "obj_a022cf0db21e4be7a4b413de95c04ef8",
+            "prefabId": "trap_fan",
+            "position": {
+                "x": -8.338225364685059,
+                "y": 1.0,
+                "z": 11.556267738342285
+            },
+            "rotationY": 0,
+            "parameters": {
+                "distance": 5.0,
+                "speed": 2.0,
+                "pauseAtEnds": 0.5,
+                "bumperForce": 10.0,
+                "cooldown": 0.5,
+                "trampolineForce": 12.0,
+                "windForce": 30.0,
+                "sweepAngle": 2000.0,
+                "sweepSpeed": 45.0,
+                "activeDuration": 5.0,
+                "cooldownDuration": 1.0
+            }
+        }
+    ]
+}

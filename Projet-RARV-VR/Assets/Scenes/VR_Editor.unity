@@ -10430,7 +10430,7 @@ MonoBehaviour:
     category: 2
     previewImage: {fileID: -7005076813460115314, guid: 93d673deb0e18764999387e1cec46925, type: 3}
     prefab: {fileID: 6133012426268942673, guid: 872041344e845a147bfd84608af9a6a6, type: 3}
-    prefabId: platform_moving
+    prefabId: trap_moving
   - displayName: Trampoline
     category: 2
     previewImage: {fileID: 6076078027327492158, guid: e2d28b5a25b7c46478d99cb6499e9f01, type: 3}

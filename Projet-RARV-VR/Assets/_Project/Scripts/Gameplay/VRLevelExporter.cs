@@ -68,17 +68,31 @@ public class VRLevelExporter : MonoBehaviour
             rotationY = ((rotationY % 360) + 360) % 360;
 
 
+
             LevelObjectData data = new LevelObjectData
             {
                 id = placed.Id,
                 prefabId = placed.PrefabId,
                 position = t.position,
-                rotationY = rotationY,
-                parameters = new LevelObjectParameters()
+                rotationY = rotationY
             };
 
+            // Retrieve the parameters modified through the VR menu.
+            VRObjectParameters objectParameters =
+                placed.GetComponent<VRObjectParameters>();
+
+            if (objectParameters != null)
+            {
+                data.parameters = objectParameters.Parameters;
+            }
+            else
+            {
+                // Use defaults for objects without configurable parameters.
+                data.parameters = new LevelObjectParameters();
+            }
 
             level.objects.Add(data);
+
         }
 
 
