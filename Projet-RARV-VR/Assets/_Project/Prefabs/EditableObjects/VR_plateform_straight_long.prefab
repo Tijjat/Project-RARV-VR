@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4541350632882540725}
+  - component: {fileID: 4914970289461623954}
   m_Layer: 0
   m_Name: Snap_Back
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3036895412979539724}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &4914970289461623954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763540913739127340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ec0625c87b8eb41af4dacf8c181a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRSnapPoints
+  snapType: Default
 --- !u!1 &2820260085785345756
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,6 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479346426233771055}
+  - component: {fileID: 752187941235084427}
   m_Layer: 0
   m_Name: Snap_Front
   m_TagString: Untagged
@@ -208,6 +223,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3036895412979539724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &752187941235084427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840775957886692505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ec0625c87b8eb41af4dacf8c181a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRSnapPoints
+  snapType: Default
 --- !u!1 &8229250746002631927
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,6 +249,8 @@ GameObject:
   - component: {fileID: 6115293124417782994}
   - component: {fileID: 2063552052148291642}
   - component: {fileID: 4656389010635785749}
+  - component: {fileID: 7473245948749922903}
+  - component: {fileID: 9182009603530774630}
   m_Layer: 0
   m_Name: VR_plateform_straight_long
   m_TagString: Untagged
@@ -438,3 +468,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VRObjectRotation
   rotationStep: 90
   joystickThreshold: 0.7
+--- !u!114 &7473245948749922903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8229250746002631927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb97e9dbf55b52941ae85c79b2a2d6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRPlaceableObject
+  id: 
+  prefabId: 
+--- !u!114 &9182009603530774630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8229250746002631927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7926e5743417e2b4ba4fc16f43c86390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectSnapping
+  snapDistance: 0.35
