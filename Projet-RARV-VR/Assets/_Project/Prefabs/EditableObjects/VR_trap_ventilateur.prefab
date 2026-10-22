@@ -2905,6 +2905,8 @@ GameObject:
   - component: {fileID: 8127405336102862339}
   - component: {fileID: 5234035227325341665}
   - component: {fileID: 5310277553772550396}
+  - component: {fileID: -4504033539191841178}
+  - component: {fileID: -1468874482783405372}
   m_Layer: 0
   m_Name: VR_trap_ventilateur
   m_TagString: Untagged
@@ -3150,7 +3152,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7926e5743417e2b4ba4fc16f43c86390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRObjectSnapping
-  snapDistance: 0.35
+  snapDistance: 2
+--- !u!114 &-4504033539191841178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126363970987366102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8a70c2e2b861b46b4a97fbd7e54231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectLock
+  isLocked: 0
+--- !u!114 &-1468874482783405372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126363970987366102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97817cc1f8fdddc4489ec0e090c61aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectParameters
+  parameters:
+    distance: 5
+    speed: 2
+    pauseAtEnds: 0.5
+    bumperForce: 10
+    cooldown: 0.5
+    trampolineForce: 12
+    windForce: 30
+    sweepAngle: 45
+    sweepSpeed: 45
+    activeDuration: 5
+    cooldownDuration: 1
 --- !u!1 &6074239411695866486
 GameObject:
   m_ObjectHideFlags: 0

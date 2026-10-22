@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 8043871868382090414}
   - component: {fileID: 7882198962148220251}
   - component: {fileID: 7215508318581938762}
+  - component: {fileID: -836479178434743751}
   m_Layer: 0
   m_Name: VR_plateform_checkpoint
   m_TagString: Untagged
@@ -401,7 +402,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7926e5743417e2b4ba4fc16f43c86390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRObjectSnapping
-  snapDistance: 0.35
+  snapDistance: 2
+--- !u!114 &-836479178434743751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758346211458279203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8a70c2e2b861b46b4a97fbd7e54231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectLock
+  isLocked: 0
 --- !u!1 &1154551405050718347
 GameObject:
   m_ObjectHideFlags: 0

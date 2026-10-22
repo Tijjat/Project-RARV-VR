@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 4174069418028428804}
   - component: {fileID: 7496045254158383845}
   - component: {fileID: 1976143412538939139}
+  - component: {fileID: -5062464728898161031}
   m_Layer: 0
   m_Name: VR_plateform_curve
   m_TagString: Untagged
@@ -494,4 +495,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7926e5743417e2b4ba4fc16f43c86390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRObjectSnapping
-  snapDistance: 0.35
+  snapDistance: 2
+--- !u!114 &-5062464728898161031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9110047946903561944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8a70c2e2b861b46b4a97fbd7e54231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectLock
+  isLocked: 0
