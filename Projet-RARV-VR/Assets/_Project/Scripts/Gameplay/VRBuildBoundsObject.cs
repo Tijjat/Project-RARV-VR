@@ -65,7 +65,10 @@ public class VRBuildBoundsObject : MonoBehaviour
             !grabInteractable.isSelected &&
             buildBounds != null)
         {
-            buildBounds.ClampObject(gameObject);
+            if (GetComponent<VRObjectSnapping>() == null)
+            {
+                buildBounds.ClampObject(gameObject);
+            }
         }
 
 
