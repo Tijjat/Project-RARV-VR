@@ -134,6 +134,7 @@ public class VRLevelFileManager : MonoBehaviour
             Directory.CreateDirectory(MapFolder);
             File.WriteAllText(filePath, json);
 
+            VRAudioManager.Instance?.PlaySave();
 
             Debug.Log($"Level saved successfully: {filePath}");
             return true;

@@ -134,7 +134,12 @@ public class VRObjectSnapping : MonoBehaviour
 
         bestSource.Connect(bestTarget);
 
-        Debug.Log(
+        if (bestSource.ConnectedTo == bestTarget)
+        {
+            VRAudioManager.Instance?.PlaySnap();
+
+            Debug.Log(
             $"{name} snapped to {bestTarget.name}");
+        }
     }
 }
