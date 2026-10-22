@@ -1,0 +1,17 @@
+{
+    "formatVersion": 1,
+    "levelId": "0b5776db12094390b2b46d2e710dec87",
+    "levelName": "level1",
+    "isValid": false,
+    "grid": {
+        "width": 250,
+        "length": 250,
+        "cellSize": 2.0,
+        "origin": {
+            "x": -250.0,
+            "y": 0.0,
+            "z": -250.0
+        }
+    },
+    "objects": []
+}
