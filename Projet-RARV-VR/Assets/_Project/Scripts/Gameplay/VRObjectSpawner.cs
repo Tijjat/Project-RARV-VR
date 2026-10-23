@@ -69,6 +69,11 @@ public class VRObjectSpawner : MonoBehaviour
 
         spawnedObject.name = entry.displayName;
 
+        // Add grab sound support without modifying the prefab asset.
+        if (spawnedObject.GetComponent<VRGrabSound>() == null)
+        {
+            spawnedObject.AddComponent<VRGrabSound>();
+        }
 
         VRPlaceableObject placeable = spawnedObject.GetComponent<VRPlaceableObject>();
 

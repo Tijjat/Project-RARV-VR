@@ -93,7 +93,7 @@ public class VRObjectDeletion : MonoBehaviour
             $"Deleting object: {placeable.Id} ({placeable.PrefabId})"
         );
 
-
+        VRAudioManager.Instance?.PlayDelete();
         Destroy(placeable.gameObject);
     }
 }

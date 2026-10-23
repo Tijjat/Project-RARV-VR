@@ -122,6 +122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3593951579160129390}
+  - component: {fileID: 4784318468745674541}
   m_Layer: 0
   m_Name: Snap_Back
   m_TagString: Untagged
@@ -144,6 +145,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694212450042457868}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &4784318468745674541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616339656326538249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ec0625c87b8eb41af4dacf8c181a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRSnapPoints
+  snapType: Default
 --- !u!1 &2788699280740941107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2889,6 +2903,10 @@ GameObject:
   - component: {fileID: 473958959693090711}
   - component: {fileID: 2347584172980508806}
   - component: {fileID: 8127405336102862339}
+  - component: {fileID: 5234035227325341665}
+  - component: {fileID: 5310277553772550396}
+  - component: {fileID: -4504033539191841178}
+  - component: {fileID: -1468874482783405372}
   m_Layer: 0
   m_Name: VR_trap_ventilateur
   m_TagString: Untagged
@@ -3108,6 +3126,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VRObjectRotation
   rotationStep: 90
   joystickThreshold: 0.7
+--- !u!114 &5234035227325341665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126363970987366102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb97e9dbf55b52941ae85c79b2a2d6fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRPlaceableObject
+  id: 
+  prefabId: 
+--- !u!114 &5310277553772550396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126363970987366102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7926e5743417e2b4ba4fc16f43c86390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectSnapping
+  snapDistance: 2
+--- !u!114 &-4504033539191841178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126363970987366102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8a70c2e2b861b46b4a97fbd7e54231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectLock
+  isLocked: 0
+--- !u!114 &-1468874482783405372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5126363970987366102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97817cc1f8fdddc4489ec0e090c61aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRObjectParameters
+  parameters:
+    distance: 5
+    speed: 2
+    pauseAtEnds: 0.5
+    bumperForce: 10
+    cooldown: 0.5
+    trampolineForce: 12
+    windForce: 30
+    sweepAngle: 45
+    sweepSpeed: 45
+    activeDuration: 5
+    cooldownDuration: 1
 --- !u!1 &6074239411695866486
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,6 +3347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4404793411310717858}
+  - component: {fileID: 9023113281762000296}
   m_Layer: 0
   m_Name: Snap_Front
   m_TagString: Untagged
@@ -3287,3 +3370,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694212450042457868}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9023113281762000296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123969724777361879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ec0625c87b8eb41af4dacf8c181a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRSnapPoints
+  snapType: Default

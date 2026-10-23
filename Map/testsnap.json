@@ -1,0 +1,410 @@
+{
+    "formatVersion": 1,
+    "levelId": "4f73391546c74e14954e5931397dcc1f",
+    "levelName": "testsnap",
+    "isValid": true,
+    "grid": {
+        "width": 250,
+        "length": 250,
+        "cellSize": 2.0,
+        "origin": {
+            "x": -250.0,
+            "y": 0.0,
+            "z": -250.0
+        }
+    },
+    "objects": [
+        {
+            "id": "obj_fbda1a457082465a9f4322e48f835f67",
+            "prefabId": "platform_straight_04",
+            "position": {
+                "x": 0.2422313690185547,
+                "y": 0.347545325756073,
+                "z": -8.51072883605957
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_53d85107f84b47fcbaafba59d73da79d",
+            "prefabId": "platform_start",
+            "position": {
+                "x": 0.39559367299079895,
+                "y": 0.2088444083929062,
+                "z": 11.305500030517578
+            },
+            "rotationY": 180,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_dad76ec561d24314b354b1e829c4fe23",
+            "prefabId": "platform_straight_01",
+            "position": {
+                "x": 0.40071702003479004,
+                "y": 0.1975945234298706,
+                "z": 18.762014389038086
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_089b1291cd3c4bdf948ba3de6dfff266",
+            "prefabId": "checkpoint",
+            "position": {
+                "x": 0.40071791410446167,
+                "y": 0.1975945234298706,
+                "z": 26.262014389038086
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_899d23d3b6ef4c24aec0e692a3caa07a",
+            "prefabId": "platform_corner",
+            "position": {
+                "x": 0.40071901679039,
+                "y": 0.1975945234298706,
+                "z": 31.262014389038086
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_449061aefe4d451ebfb3b0ddf8f8ad56",
+            "prefabId": "platform_straight_02",
+            "position": {
+                "x": 7.900721549987793,
+                "y": 0.1975945234298706,
+                "z": 31.26201057434082
+            },
+            "rotationY": 90,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_3226ef96a36343b7bb481bf0a9886868",
+            "prefabId": "platform_curve",
+            "position": {
+                "x": 17.900726318359375,
+                "y": 0.1975945234298706,
+                "z": 33.76200866699219
+            },
+            "rotationY": 180,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_00adae51e4944d33bbf8f3099180dd5c",
+            "prefabId": "platform_straight_06",
+            "position": {
+                "x": 20.400732040405273,
+                "y": 0.1975945234298706,
+                "z": 41.26200866699219
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_70ee62d9716d4001b55f59685996ec09",
+            "prefabId": "trap_bumper",
+            "position": {
+                "x": 20.400737762451172,
+                "y": 0.1975945234298706,
+                "z": 48.76200866699219
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_e2a975b92ed54e38bb79d9a9cffc99a4",
+            "prefabId": "trap_launcher",
+            "position": {
+                "x": 20.400745391845703,
+                "y": 0.1975945234298706,
+                "z": 58.76200866699219
+            },
+            "rotationY": 180,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_f5a6d128851c49c7a70f725362397b68",
+            "prefabId": "platform_moving",
+            "position": {
+                "x": 20.4007511138916,
+                "y": 0.1975945234298706,
+                "z": 66.26200866699219
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_a9db3f2a5782491d9c3ad614cc3e9192",
+            "prefabId": "platform_trampoline",
+            "position": {
+                "x": 20.400754928588867,
+                "y": 0.1975945234298706,
+                "z": 71.26200866699219
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_df4b2fbfaeb943c1a802e9932a2787c1",
+            "prefabId": "trap_fan",
+            "position": {
+                "x": 20.4007625579834,
+                "y": 0.1975945234298706,
+                "z": 78.76200866699219
+            },
+            "rotationY": 180,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        },
+        {
+            "id": "obj_26bdb18bb5654dc1b00f575864b5e2ae",
+            "prefabId": "platform_finish",
+            "position": {
+                "x": 20.400772094726563,
+                "y": 0.1975945234298706,
+                "z": 86.26200866699219
+            },
+            "rotationY": 0,
+            "parameters": {
+                "moveStart": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "moveEnd": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 3.0,
+                "detectionRange": 0.0,
+                "launchForce": 0.0,
+                "bumperForce": 0.0,
+                "fanForce": 0.0,
+                "trampolineForce": 0.0
+            }
+        }
+    ]
+}
